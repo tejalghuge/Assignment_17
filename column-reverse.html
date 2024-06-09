@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Column-Reverse></Column-Reverse> Flexboxes</title>
+    <style>
+        .picture{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: left;
+        }
+        .profile-card {
+            width: 400px;
+            height: 600px;
+            background-color: #f7f2f2;
+            border: solid 1px #1180009c;
+            margin: 20px 20px;
+            padding: 10px;
+            border-radius: 16px;
+            box-shadow: -7px 9px 4px grey;
+        
+        }
+        .movie-img {
+            height: 230px;
+            width: 350px;
+            padding: 10px;
+            border-radius: 60px;
+            box-shadow: blue;
+        }
+        
+        .movie-name{
+           
+            text-align: center;
+            color: brown;
+          
+        }
+        h3{
+        text-shadow: 1px 1px;
+        color:#220033;
+        text-align: center;
+        margin-right: 40px;
+        font-size: 30px;
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="picture">
+   <div class="profile-card">
+    <img  src="img1.jpeg" class="movie-img"/>
+    <h3 class="movie-name"><b>1.GADAR 2</b></h3>
+    <h3>Rating : 5.7</h3>
+    <h3>Lang : Hindi</h3>
+    <h3>Review : 90k</h3>
+   </div>
+
+   <div class="profile-card">
+    <img src="img2.jpeg" class="movie-img" />
+    <h3 class="movie-name"><b>2.HAPPY NEW YEAR</b></h3>
+    <h3>Rating :6.8</h3>
+    <h3>Lang : Hindi</h3>
+    <h3>Review : 86k</h3>
+  </div>
+
+   <div class="profile-card">
+    <img src="img3.jpeg" class="movie-img"/>
+    <h3 class="movie-name"><b>3.STUDENT OF THE YEAR</b></h3>
+    <h3>Rating : 7.9</h3>
+    <h3>Lang : Hindi</h3>
+    <h3>Review : 70k</h3>
+   </div> 
+</div>
+</body>
+</html>
